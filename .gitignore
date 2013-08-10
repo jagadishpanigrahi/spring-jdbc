@@ -1,0 +1,25 @@
+.classpath
+.settings
+.externalToolBuilders
+.project
+.DS_Store
+.checkstyle
+.idea
+.ssh
+.bash_history
+.gitconfig
+_viminfo
+.gitk
+logs
+target
+bin
+
+# META-INF - eclipse adds it in random places, so we exclude those (should be in src/main/resources/META-INF/
+*/src/main/java/META-INF/
+*/src/test/java/META-INF/
+*/**/src/main/java/META-INF/
+*/**/src/test/java/META-INF/
+
+=======
+*.iml
+.idea
